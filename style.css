@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+.size {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.3rem;
+}
+li {
+  list-style: none;
+}
+form {
+  color: rgb(0, 211, 248);
+  text-align: center;
+  font-weight: 700;
+}
+label {
+  margin-bottom: 1rem;
+}
+
+.font-final {
+  font-size: 3rem;
+  color: rgb(0, 255, 21);
+  background-color: rgb(12, 53, 141);
+}
+.trivia-form-background {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/img/jason-leung-Xaanw0s0pMk-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+
+.trivia-form-container {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(185, 12, 133, 0.493);
+  border-radius: 2rem;
+}
+
+.questions-amount,
+.category-select,
+.difficulty-select,
+.type-select {
+  display: flex;
+  flex-direction: column;
+  background-color: #3e034693;
+}
+
+.button-submit-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.buttn {
+  width: 90%;
+}
+
+.js-end {
+  display: none;
+}
+
+.padding-left {
+  padding-left: 1.6rem;
+  font-size: 2.4rem;
+  color: white;
+}
+
+.btn-fnt {
+  font-size: 1.3rem;
+}
